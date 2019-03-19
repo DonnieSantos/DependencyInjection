@@ -41,6 +41,20 @@ public class Room implements IRoom {
         return this;
     }
 
+    /**
+     * @deprecated  Need to find a better design with no down-casting.
+     */
+    @Deprecated
+    @Override
+    public IRoom addPerson(IPerson person) {
+        if (person instanceof IWoman) {
+            this.women.add((IWoman)person);
+        } else if (person instanceof IMan) {
+            this.men.add((IMan)person);
+        }
+        return this;
+    }
+
     @Override
     public IRoom addWoman(String firstName, String lastName) {
         IWoman woman = this.womanProvider.get();

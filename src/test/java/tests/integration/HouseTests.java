@@ -1,4 +1,4 @@
-package tests;
+package tests.integration;
 
 import com.google.inject.Guice;
 import com.google.inject.Injector;
@@ -9,14 +9,13 @@ import org.junit.Assert;
 import org.junit.Test;
 import people.IPerson;
 import people.female.IWoman;
-import people.female.Woman;
 import people.female.WomanProvider;
 import people.male.IMan;
 import people.male.ManProvider;
 import rooms.IRoom;
 import rooms.RoomProvider;
 
-public class HouseIntegrationTests {
+public class HouseTests {
 
     private IHouse fullHouse;
 
@@ -35,27 +34,15 @@ public class HouseIntegrationTests {
     @Test
     public void houseIntegrationTest() {
 
-        fullHouse = injector.getInstance(IHouse.class)
+        this.fullHouse = injector.getInstance(IHouse.class);
+
+        this.fullHouse
             .addRoom("Family Room")
             .addRoom("Living Room");
 
-        getFamilyRoom()
+        this.getFamilyRoom()
             .addMan("Barack", "Obama")
             .addWoman("Michelle", "Obama");
-
-        //////////////////////////////////////////////////////////////////////////////////
-        //////////////////////////////////////////////////////////////////////////////////
-        ////                                                                          ////
-        //// IWoman extends Provider<IPerson>...                                      ////
-        ////                                                                          ////
-        /**/ IWoman michelle = getFamilyRoom().getWomen().get(0);                     ////
-        /**/ IPerson child = michelle.get();                                          ////
-        /**/ String childFirstName = child instanceof Woman ? "Malia" : "Barack Jr."; ////
-        /**/ child.setFirstName(childFirstName);                                      ////
-        /**/ child.setLastName("Obama");                                              ////
-        ////                                                                          ////
-        //////////////////////////////////////////////////////////////////////////////////
-        //////////////////////////////////////////////////////////////////////////////////
 
         Assert.assertEquals("Family Room", getFamilyRoom().getName());
         Assert.assertEquals("Living Room", getLivingRoom().getName());
@@ -70,6 +57,5 @@ public class HouseIntegrationTests {
 
         Assert.assertEquals("Barack Obama", getBarack().getFullName());
         Assert.assertEquals("Michelle Obama", getMichelle().getFullName());
-        Assert.assertEquals(childFirstName + " Obama", child.getFullName());
     }
 }

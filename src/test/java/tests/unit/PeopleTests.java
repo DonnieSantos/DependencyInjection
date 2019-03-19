@@ -1,4 +1,4 @@
-package tests;
+package tests.unit;
 
 import com.google.inject.Guice;
 import com.google.inject.Injector;
@@ -11,7 +11,7 @@ import people.female.Woman;
 import people.male.IMan;
 import people.male.Man;
 
-public class PeopleUnitTests {
+public class PeopleTests {
 
     private Injector injector = Guice.createInjector((Module) binder -> {
         binder.bind(IWoman.class).to(Woman.class);

@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6e27b93-bce5-49ea-a6b8-3548ececb42c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/integration/PersonProviderTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/integration/RoomProviderTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rooms/IRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rooms/IRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rooms/MockRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rooms/MockRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rooms/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rooms/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/HouseIntegrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/integration/HouseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/HouseUnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/unit/HouseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PeopleUnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/unit/PeopleTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RoomUnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/unit/RoomTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rooms/IRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rooms/IRoom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rooms/MockRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rooms/MockRoom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rooms/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rooms/Room.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/HouseIntegrationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/HouseUnitTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/PeopleUnitTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/RoomUnitTests.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,21 +66,25 @@
         <option value="$PROJECT_DIR$/src/main/java/rooms/RoomProvider.java" />
         <option value="$PROJECT_DIR$/src/main/java/people/IPerson.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/Tests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rooms/MockRoom.java" />
         <option value="$PROJECT_DIR$/src/main/java/rooms/MockRoomProvider.java" />
         <option value="$PROJECT_DIR$/src/main/java/people/male/Man.java" />
         <option value="$PROJECT_DIR$/src/main/java/people/male/MockMan.java" />
         <option value="$PROJECT_DIR$/src/main/java/people/female/IWoman.java" />
         <option value="$PROJECT_DIR$/src/main/java/people/female/MockWoman.java" />
         <option value="$PROJECT_DIR$/src/main/java/houses/IHouse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rooms/IRoom.java" />
         <option value="$PROJECT_DIR$/src/main/java/houses/House.java" />
         <option value="$PROJECT_DIR$/src/main/java/people/female/Woman.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/PeopleUnitTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/HouseIntegrationTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rooms/Room.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/HouseUnitTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/RoomUnitTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/HouseIntegrationTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/integration/HouseTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rooms/IRoom.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rooms/Room.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rooms/MockRoom.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/integration/ProviderTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/integration/RoomProviderTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/integration/PersonProviderTests.java" />
       </list>
     </option>
   </component>
@@ -101,7 +121,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -113,6 +133,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,6 +145,61 @@
               <item name="DependencyInjection" type="b2602c69:ProjectViewProjectNode" />
               <item name="DependencyInjection" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DependencyInjection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DependencyInjection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DependencyInjection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DependencyInjection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DependencyInjection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DependencyInjection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="houses" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DependencyInjection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DependencyInjection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="people" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DependencyInjection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DependencyInjection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="people" type="462c0819:PsiDirectoryNode" />
+              <item name="female" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DependencyInjection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DependencyInjection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="people" type="462c0819:PsiDirectoryNode" />
+              <item name="male" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DependencyInjection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DependencyInjection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rooms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DependencyInjection" type="b2602c69:ProjectViewProjectNode" />
@@ -146,11 +222,28 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DependencyInjection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DependencyInjection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="integration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DependencyInjection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DependencyInjection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,41 +290,18 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="HouseIntegrationTests.houseIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonProviderTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DependencyInjection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.integration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.HouseIntegrationTests" />
-      <option name="METHOD_NAME" value="houseIntegrationTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="HouseUnitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DependencyInjection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.HouseUnitTests" />
+      <option name="PACKAGE_NAME" value="tests.integration" />
+      <option name="MAIN_CLASS_NAME" value="tests.integration.PersonProviderTests" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -243,18 +313,64 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PeopleUnitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonProviderTests.personProviderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DependencyInjection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.integration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.PeopleUnitTests" />
+      <option name="PACKAGE_NAME" value="tests.integration" />
+      <option name="MAIN_CLASS_NAME" value="tests.integration.PersonProviderTests" />
+      <option name="METHOD_NAME" value="personProviderTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="PersonProviderTests.womanAsPersonProviderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DependencyInjection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests.integration" />
+      <option name="MAIN_CLASS_NAME" value="tests.integration.PersonProviderTests" />
+      <option name="METHOD_NAME" value="womanAsPersonProviderTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="RoomProviderTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DependencyInjection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests.integration" />
+      <option name="MAIN_CLASS_NAME" value="tests.integration.RoomProviderTests" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -273,29 +389,6 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="tests in DependencyInjection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DependencyInjection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -328,19 +421,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.HouseUnitTests" />
-      <item itemvalue="JUnit.PeopleUnitTests" />
-      <item itemvalue="JUnit.tests in DependencyInjection" />
-      <item itemvalue="JUnit.HouseIntegrationTests.houseIntegrationTest" />
+      <item itemvalue="JUnit.RoomProviderTests" />
+      <item itemvalue="JUnit.PersonProviderTests.personProviderTest" />
+      <item itemvalue="JUnit.PersonProviderTests.womanAsPersonProviderTest" />
+      <item itemvalue="JUnit.PersonProviderTests" />
       <item itemvalue="JUnit.All in DependencyInjection" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in DependencyInjection" />
-        <item itemvalue="JUnit.HouseIntegrationTests.houseIntegrationTest" />
-        <item itemvalue="JUnit.PeopleUnitTests" />
-        <item itemvalue="JUnit.tests in DependencyInjection" />
-        <item itemvalue="JUnit.HouseUnitTests" />
+        <item itemvalue="JUnit.PersonProviderTests" />
+        <item itemvalue="JUnit.PersonProviderTests.womanAsPersonProviderTest" />
+        <item itemvalue="JUnit.PersonProviderTests.personProviderTest" />
+        <item itemvalue="JUnit.RoomProviderTests" />
       </list>
     </recent_temporary>
   </component>
@@ -362,43 +455,44 @@
       <workItem from="1552799636376" duration="834000" />
       <workItem from="1552800613995" duration="34711000" />
       <workItem from="1552883581716" duration="103000" />
+      <workItem from="1552953492556" duration="11506000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_DependencyInjection - 2019.03.17 at 23h 24m 51s.xml">
-      <configuration name="All in DependencyInjection" configurationId="JUnit" />
+    <history-entry file="ProviderTests_providersIntegrationTest - 2019.03.18 at 21h 57m 46s.xml">
+      <configuration name="ProviderTests.providersIntegrationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HouseIntegrationTests_houseIntegrationTest - 2019.03.17 at 23h 53m 35s.xml">
-      <configuration name="HouseIntegrationTests.houseIntegrationTest" configurationId="JUnit" />
+    <history-entry file="ProviderTests_providersIntegrationTest - 2019.03.18 at 21h 59m 34s.xml">
+      <configuration name="ProviderTests.providersIntegrationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HouseIntegrationTests_houseIntegrationTest - 2019.03.17 at 23h 53m 46s.xml">
-      <configuration name="HouseIntegrationTests.houseIntegrationTest" configurationId="JUnit" />
+    <history-entry file="ProviderTests_providersIntegrationTest - 2019.03.18 at 22h 00m 01s.xml">
+      <configuration name="ProviderTests.providersIntegrationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HouseIntegrationTests_houseIntegrationTest - 2019.03.17 at 23h 53m 58s.xml">
-      <configuration name="HouseIntegrationTests.houseIntegrationTest" configurationId="JUnit" />
+    <history-entry file="ProviderTests_providersIntegrationTest - 2019.03.18 at 22h 08m 45s.xml">
+      <configuration name="ProviderTests.providersIntegrationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HouseIntegrationTests_houseIntegrationTest - 2019.03.17 at 23h 54m 03s.xml">
-      <configuration name="HouseIntegrationTests.houseIntegrationTest" configurationId="JUnit" />
+    <history-entry file="RoomProviderTests - 2019.03.19 at 01h 08m 02s.xml">
+      <configuration name="RoomProviderTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HouseIntegrationTests_houseIntegrationTest - 2019.03.17 at 23h 54m 09s.xml">
-      <configuration name="HouseIntegrationTests.houseIntegrationTest" configurationId="JUnit" />
+    <history-entry file="PersonProviderTests_personProviderTest - 2019.03.19 at 01h 14m 08s.xml">
+      <configuration name="PersonProviderTests.personProviderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HouseIntegrationTests_houseIntegrationTest - 2019.03.17 at 23h 54m 14s.xml">
-      <configuration name="HouseIntegrationTests.houseIntegrationTest" configurationId="JUnit" />
+    <history-entry file="PersonProviderTests_womanAsPersonProviderTest - 2019.03.19 at 01h 29m 25s.xml">
+      <configuration name="PersonProviderTests.womanAsPersonProviderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HouseIntegrationTests_houseIntegrationTest - 2019.03.17 at 23h 54m 20s.xml">
-      <configuration name="HouseIntegrationTests.houseIntegrationTest" configurationId="JUnit" />
+    <history-entry file="PersonProviderTests - 2019.03.19 at 01h 37m 16s.xml">
+      <configuration name="PersonProviderTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_DependencyInjection - 2019.03.17 at 23h 59m 39s.xml">
-      <configuration name="All in DependencyInjection" configurationId="JUnit" />
+    <history-entry file="PersonProviderTests - 2019.03.19 at 01h 40m 30s.xml">
+      <configuration name="PersonProviderTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_DependencyInjection - 2019.03.18 at 00h 34m 42s.xml">
+    <history-entry file="All_in_DependencyInjection - 2019.03.19 at 01h 41m 29s.xml">
       <configuration name="All in DependencyInjection" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52809000" />
+    <option name="totallyTimeSpent" value="64315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -417,7 +511,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27452025" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27771854" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -453,13 +547,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/houses/IHouse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -510,7 +597,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/HouseUnitTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/unit/HouseTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
@@ -618,13 +705,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/people/Person.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/people/PersonProvider.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rooms/RoomProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/google/inject/guice/4.0/guice-4.0.jar!/com/google/inject/Module.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -636,13 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rooms/MockRoom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -681,13 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/people/female/WomanProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/people/male/Man.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -706,13 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="8" column="10" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rooms/IRoom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -737,50 +796,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/people/female/Woman.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/rooms/IRoom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="154">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rooms/Room.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-648">
-          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        <state relative-caret-position="572">
+          <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+          <folding>
+            <element signature="e#2038#2039#0" expanded="true" />
+            <element signature="e#2071#2072#0" expanded="true" />
+            <element signature="e#2124#2125#0" expanded="true" />
+            <element signature="e#2155#2156#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/HouseUnitTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/people/female/WomanProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        <state relative-caret-position="220">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/RoomUnitTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/people/female/Woman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+        <state relative-caret-position="550">
+          <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/PeopleUnitTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/rooms/MockRoom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        <state relative-caret-position="304">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/HouseIntegrationTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/rooms/RoomProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="74" column="1" lean-forward="true" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+        <state relative-caret-position="198">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DependencyInjection.iml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/integration/PersonProviderTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1562">
+          <caret line="71" column="1" lean-forward="true" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/integration/RoomProviderTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/integration/HouseTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/unit/HouseTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/unit/PeopleTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-356">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/unit/RoomTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

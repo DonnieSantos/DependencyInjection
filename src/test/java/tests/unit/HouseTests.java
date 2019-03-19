@@ -1,4 +1,4 @@
-package tests;
+package tests.unit;
 
 import com.google.inject.*;
 import com.google.inject.Module;
@@ -8,7 +8,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import rooms.*;
 
-public class HouseUnitTests {
+public class HouseTests {
 
     private Injector injector = Guice.createInjector((Module) binder -> {
         binder.bind(IHouse.class).to(House.class);

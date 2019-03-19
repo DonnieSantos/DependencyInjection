@@ -1,4 +1,4 @@
-package tests;
+package tests.unit;
 
 import com.google.inject.Guice;
 import com.google.inject.Injector;
@@ -12,7 +12,7 @@ import people.male.MockManProvider;
 import rooms.IRoom;
 import rooms.Room;
 
-public class RoomUnitTests {
+public class RoomTests {
 
     private Injector injector = Guice.createInjector((Module) binder -> {
         binder.bind(IRoom.class).to(Room.class);

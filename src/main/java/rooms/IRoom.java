@@ -9,6 +9,7 @@ import java.util.ArrayList;
 public interface IRoom {
     String getName();
     IRoom setName(String name);
+    IRoom addPerson(IPerson person);
     IRoom addWoman(String firstName, String lastName);
     IRoom addMan(String firstName, String lastName);
     ArrayList<IPerson> getPeople();

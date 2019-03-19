@@ -24,6 +24,11 @@ public class MockRoom implements IRoom {
     }
 
     @Override
+    public IRoom addPerson(IPerson person) {
+        return this;
+    }
+
+    @Override
     public IRoom addWoman(String firstName, String lastName) {
         return this;
     }
